@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include "banker.h"
 
@@ -9,6 +10,7 @@ int **allocation;
 int **need;
 Comando *comandos;
 int quantidade_comandos;
+FILE *arquivo_resultado;
 
 static void liberar_matriz(int **matriz, int linhas){
     int i;
@@ -39,6 +41,16 @@ int main(int argc, char *argv[]){
     carregar_argumentos(argc, argv);
     carregar_clientes();
     carregar_comandos();
+
+    arquivo_resultado = fopen("result.txt", "w");
+
+    if (arquivo_resultado == NULL){
+        fprintf(stderr, "Erro: não foi possível criar o arquivo result.txt\n");
+        liberar_memoria();
+        return 1;
+    }
+
+    fclose(arquivo_resultado);
     liberar_memoria();
     return 0;
 }
