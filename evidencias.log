@@ -175,4 +175,247 @@ To https://github.com/Lindemberglb/Deadlock.git
 [?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
 [?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker
 [?2004lErro: informe o número de instâncias de cada recurso. Exemplo: ./banker 10 5 7
-[?2004h]0;guitolin@guitolinnote: ~/g
+[?2004h]0;guitolin@guitolinnote: ~/gusing up to 8 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 1.37 KiB | 1.37 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/Lindemberglb/Deadlock.git
+   796e9a5..4564783  main -> main
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ script - a[K[Ka evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker
+[?2004lErro: informe o número de instâncias de cada recurso. Exemplo: ./banker 10 5 7
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m[1P./banker 10 5 [K[K[K[K[K[K[K[K[K[K[K[K[K[Kmake
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker
+[?2004lErro: informe o número de instâncias de cada recurso. Exemplo: ./banker 10 5 7
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m./banker 10 5 7
+[?2004lErro: não foi possível abrir o arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker
+[?2004lErro: informe o número de instâncias de cada recurso. Exemplo: ./banker 10 5 7
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m[1P./banker 10 5 
+[?2004lErro: não foi possível abrir o arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git add git[K[K[K[K .gitg[Kignore banker.h entrada.c evidencai[K[K[K[K[K[K[K[K[Kmain.c evidencias.log
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git commit -m "[7mleitura e validação de customer.txt[27mleitura e validação de customer.txt[1@f[1@a[1@z[1@ [1@a[1@ [1P[1P[1P[1P[1P[1P[1@a[1@d[1@i[1@c[1@i[1@o[1@n[1@e[1@i[1@ [1@a[1@ [1@p[1@a[1@r[1@t[1@e[1@ [1@d[1@e[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C, atualizaei[K[K[Kei o sr[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K fiz o gitiScript started on 2026-11-15 04:23:04-03:00 [TERM="xterm-256color" TTY="/dev/pts/20" COLUMNS="138" LINES="13"]
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker
+[?2004lErro: informe o número de instâncias de cada recurso. Exemplo: ./banker 10 5 7
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m[1P./banker 10 5 [K[K[K[K[K[K[K[K[K[K[K[K[K[Kmake
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker
+[?2004lErro: informe o número de instâncias de cada recurso. Exemplo: ./banker 10 5 7
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m./banker 10 5 7
+[?2004lErro: não foi possível abrir o arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker
+[?2004lErro: informe o número de instâncias de cada recurso. Exemplo: ./banker 10 5 7
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m[1P./banker 10 5 
+[?2004lErro: não foi possível abrir o arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git add git[K[K[K[K .gitg[Kignore banker.h entrada.c evidencai[K[K[K[K[K[K[K[K[Kmain.c evidencias.log
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git commit -m "[7mleitura e validação de customer.txt[27mleitura e validação de customer.txt[1@f[1@a[1@z[1@ [1@a[1@ [1P[1P[1P[1P[1P[1P[1@a[1@d[1@i[1@c[1@i[1@o[1@n[1@e[1@i[1@ [1@a[1@ [1@p[1@a[1@r[1@t[1@e[1@ [1@d[1@e[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C, atualizaei[K[K[Kei o sr[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K fiz o gitignore e atualizei o scrip t"
+[?2004l[main 19a37a2] adicionei a parte de leitura e validação de customer.txt, fiz o gitignore e atualizei o script
+ 5 files changed, 254 insertions(+), 6 deletions(-)
+ create mode 100644 .gitignore
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git push
+[?2004lEnumerating objects: 12, done.
+Counting objects:   8% (1/12)Counting objects:  16% (2/12)Counting objects:  25% (3/12)Counting objects:  33% (4/12)Counting objects:  41% (5/12)Counting objects:  50% (6/12)Counting objects:  58% (7/12)Counting objects:  66% (8/12)Counting objects:  75% (9/12)Counting objects:  83% (10/12)Counting objects:  91% (11/12)Counting objects: 10linnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m./banker 10 5 7
+[?2004lErro: não foi possível abrir o arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker
+[?2004lErro: informe o número de instâncias de cada recurso. Exemplo: ./banker 10 5 7
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m[1P./banker 10 5 
+[?2004lErro: não foi possível abrir o arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git add git[K[K[K[K .gitg[Kignore banker.h entrada.c evidencai[K[K[K[K[K[K[K[K[Kmain.c evidencias.log
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git commit -m "[7mleitura e validação de customer.txt[27mleitura e validação de customer.txt[1@f[1@a[1@z[1@ [1@a[1@ [1P[1P[1P[1P[1P[1P[1@a[1@d[1@i[1@c[1@i[1@o[1@n[1@e[1@i[1@ [1@a[1@ [1@p[1@a[1@r[1@t[1@e[1@ [1@d[1@e[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C, atualizaei[K[K[Kei o sr[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K fiz o gitignore e atualizei o scrip t"
+[?2004l[main 19a37a2] adicionei a parte de leitura e validação de customer.txt, fiz o gitignore e atualizei o script
+ 5 files changed, 254 insertions(+), 6 deletions(-)
+ create mode 100644 .gitignore
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git push
+[?2004lEnumerating objects: 12, done.
+Counting objects:   8% (1/12)Counting objects:  16% (2/12)Counting objects:  25% (3/12)Counting objects:  33% (4/12)Counting objects:  41% (5/12)Counting objects:  50% (6/12)Counting objects:  58% (7/12)Counting objects:  66% (8/12)Counting objects:  75% (9/12)Counting objects:  83% (10/12)Counting objects:  91% (11/12)Counting objects: 100% (12/12)Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 3.81 KiB | 1.27 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/Lindemberglb/Deadlock.git
+   4564783..19a37a2  main -> main
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make 
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 10 5 7
+[?2004lllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m[1P./banker 10 5 
+[?2004lErro: não foi possível abrir o arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git add git[K[K[K[K .gitg[Kignore banker.h entrada.c evidencai[K[K[K[K[K[K[K[K[Kmain.c evidencias.log
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git commit -m "[7mleitura e validação de customer.txt[27mleitura e validação de customer.txt[1@f[1@a[1@z[1@ [1@a[1@ [1P[1P[1P[1P[1P[1P[1@a[1@d[1@i[1@c[1@i[1@o[1@n[1@e[1@i[1@ [1@a[1@ [1@p[1@a[1@r[1@t[1@e[1@ [1@d[1@e[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C, atualizaei[K[K[Kei o sr[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K fiz o gitignore e atualizei o scrip t"
+[?2004l[main 19a37a2] adicionei a parte de leitura e validação de customer.txt, fiz o gitignore e atualizei o script
+ 5 files changed, 254 insertions(+), 6 deletions(-)
+ create mode 100644 .gitignore
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git push
+[?2004lEnumerating objects: 12, done.
+Counting objects:   8% (1/12)Counting objects:  16% (2/12)Counting objects:  25% (3/12)Counting objects:  33% (4/12)Counting objects:  41% (5/12)Counting objects:  50% (6/12)Counting objects:  58% (7/12)Counting objects:  66% (8/12)Counting objects:  75% (9/12)Counting objects:  83% (10/12)Counting objects:  91% (11/12)Counting objects: 100% (12/12)Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 3.81 KiB | 1.27 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/Lindemberglb/Deadlock.git
+   4564783..19a37a2  main -> main
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make 
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 10 5 7
+[?2004lErro: não foi possível abrir o arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 10 4 5
+[?2004lErro: formato inválido na linha 1 do arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./bamk[K[K[Kanker 7 5 3
+[?2004lErro: formatognore e atualizei o scrip t"
+[?2004l[main 19a37a2] adicionei a parte de leitura e validação de customer.txt, fiz o gitignore e atualizei o script
+ 5 files changed, 254 insertions(+), 6 deletions(-)
+ create mode 100644 .gitignore
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git push
+[?2004lEnumerating objects: 12, done.
+Counting objects:   8% (1/12)Counting objects:  16% (2/12)Counting objects:  25% (3/12)Counting objects:  33% (4/12)Counting objects:  41% (5/12)Counting objects:  50% (6/12)Counting objects:  58% (7/12)Counting objects:  66% (8/12)Counting objects:  75% (9/12)Counting objects:  83% (10/12)Counting objects:  91% (11/12)Counting objects: 100% (12/12)Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 3.81 KiB | 1.27 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/Lindemberglb/Deadlock.git
+   4564783..19a37a2  main -> main
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make 
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 10 5 7
+[?2004lErro: não foi possível abrir o arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 10 4 5
+[?2004lErro: formato inválido na linha 1 do arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./bamk[K[K[Kanker 7 5 3
+[?2004lErro: formato inválido na linha 1 do arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m./banker 10 5 7
+[?2004lErro: formato inválido na linha 1 do arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5[27m./banker 10 5
+[?2004lErro: o número de argumentos é diferente da quantidade de recursos em customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m./banker 10 5 7
+[?2004lErro: formato inválido na linha 1 do arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mfile customer.txt[27m
+[7mcat -A customer.txt[27m[A]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ file customer.txt
+cat -A customer.txt
+[?2004lcustomer.txt: CSV Unicode text, UTF-8 (with BOM) text
+M-oM-;M-?7,5,3^M$
+3,2,2^M$
+9,0,2^M$
+2,2,2^M$
+4,3,3[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@0% (12/12)Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 3.81 KiB | 1.27 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/Lindemberglb/Deadlock.git
+   4564783..19a37a2  main -> main
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make 
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 10 5 7
+[?2004lErro: não foi possível abrir o arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 10 4 5
+[?2004lErro: formato inválido na linha 1 do arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./bamk[K[K[Kanker 7 5 3
+[?2004lErro: formato inválido na linha 1 do arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m./banker 10 5 7
+[?2004lErro: formato inválido na linha 1 do arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5[27m./banker 10 5
+[?2004lErro: o número de argumentos é diferente da quantidade de recursos em customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m./banker 10 5 7
+[?2004lErro: formato inválido na linha 1 do arquivo customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mfile customer.txt[27m
+[7mcat -A customer.txt[27m[A]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ file customer.txt
+cat -A customer.txt
+[?2004lcustomer.txt: CSV Unicode text, UTF-8 (with BOM) text
+M-oM-;M-?7,5,3^M$
+3,2,2^M$
+9,0,2^M$
+2,2,2^M$
+4,3,3[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 10 5 7
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [?2004l
+exit
+
+Script done on 2026-11-15 05:26:45-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-15 11:51:43-03:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="138" LINES="13"]
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make l[Kclean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git add entrada.c
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git commit -m ~[K"corrigi a leitura[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kadicionei a fun;'ao[K[K[K[Kção pular_bom para ignorar os bytes invisíveis no começo da linha 1^[K" "e" "c"o"n"s"e"g"u"i"r" "l"e"r" "o"s" "a"r"q"u"i"v"o"s"
+[?2004l[main acca555] adicionei a função pular_bom para ignorar os bytes invisíveis no começo da linha 1 e conseguir ler os arquivos
+ 1 file changed, 31 insertions(+), 19 deletions(-)
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git push
+[?2004lfatal: unable to access 'https://github.com/Lindemberglb/Deadlock.git/': Could not resolve host: github.com
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./[K[K[7m./banker 10 5 7[27m./banker 10 5 7
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 10 5
+[?2004lErro: o número de argumentos é diferente da quantidade de recursos em customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker
+[?2004lErro: informe o número de instâncias de cada recurso. Exemplo: ./banker 10 5 7
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@gui
