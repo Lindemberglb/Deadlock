@@ -19,7 +19,7 @@ static void erro_formato(const char *nome_arquivo, int numero_linha){
 int *criar_vetor(int tamanho){
     int *vetor = calloc(tamanho, sizeof(int));
 
-    if (vetor == NULL) {
+    if (vetor == NULL){
         encerrar_com_erro("Erro: memória insuficiente");
     }
 
@@ -30,11 +30,11 @@ static int **criar_matriz(int linhas, int colunas){
     int **matriz = malloc(linhas * sizeof(int *));
     int i;
 
-    if (matriz == NULL) {
+    if (matriz == NULL){
         encerrar_com_erro("Erro: memória insuficiente");
     }
 
-    for (i = 0; i < linhas; i++) {
+    for (i = 0; i < linhas; i++){
         matriz[i] = criar_vetor(colunas);
     }
 
@@ -47,13 +47,13 @@ static int ler_numero(const char *texto, int *valor){
 
     while (texto[digitos] >= '0' && texto[digitos] <= '9') {
         resultado = resultado * 10 + (texto[digitos] - '0');
-        if (resultado > INT_MAX) {
+        if (resultado > INT_MAX){
             return 0;
         }
         digitos++;
     }
 
-    if (digitos == 0) {
+    if (digitos == 0){
         return 0;
     }
 
@@ -64,7 +64,7 @@ static int ler_numero(const char *texto, int *valor){
 static int ler_linha(FILE *arquivo, char *linha){
     int tamanho;
 
-    if (fgets(linha, TAMANHO_LINHA, arquivo) == NULL) {
+    if (fgets(linha, TAMANHO_LINHA, arquivo) == NULL){
         return 0;
     }
 
@@ -77,17 +77,25 @@ static int ler_linha(FILE *arquivo, char *linha){
         return -1;
     }
 
-    if (tamanho > 0 && linha[tamanho - 1] == '\r') {
+    if (tamanho > 0 && linha[tamanho - 1] == '\r'){
         linha[tamanho - 1] = '\0';
     }
 
     return 1;
 }
 
+static void pular_bom(FILE *arquivo){
+    if (fgetc(arquivo) == 0xEF && fgetc(arquivo) == 0xBB && fgetc(arquivo) == 0xBF){
+        return;
+    }
+
+    rewind(arquivo);
+}
+
 void carregar_argumentos(int argc, char *argv[]){
     int i;
 
-    if (argc < 2) {
+    if (argc < 2){
         encerrar_com_erro("Erro: informe o número de instâncias de cada recurso. Exemplo: ./banker 10 5 7");
     }
 
@@ -97,7 +105,7 @@ void carregar_argumentos(int argc, char *argv[]){
     for (i = 0; i < NUMBER_OF_RESOURCES; i++) {
         int digitos = ler_numero(argv[i + 1], &available[i]);
 
-        if (digitos == 0 || argv[i + 1][digitos] != '\0') {
+        if (digitos == 0 || argv[i + 1][digitos] != '\0'){
             encerrar_com_erro("Erro: os argumentos devem ser números inteiros não negativos");
         }
     }
@@ -107,8 +115,8 @@ static int contar_valores(const char *linha){
     int quantidade = 1;
     int i;
 
-    for (i = 0; linha[i] != '\0'; i++) {
-        if (linha[i] == ',') {
+    for (i = 0; linha[i] != '\0'; i++){
+        if (linha[i] == ','){
             quantidade++;
         }
     }
@@ -123,14 +131,14 @@ static int ler_linha_cliente(const char *linha, int *valores, int quantidade){
     for (i = 0; i < quantidade; i++) {
         int digitos = ler_numero(linha + posicao, &valores[i]);
 
-        if (digitos == 0) {
+        if (digitos == 0){
             return 0;
         }
 
         posicao += digitos;
 
         if (i < quantidade - 1) {
-            if (linha[posicao] != ',') {
+            if (linha[posicao] != ','){
                 return 0;
             }
             posicao++;
@@ -146,24 +154,27 @@ void carregar_clientes(void){
     int status;
     int i, j;
 
-    if (arquivo == NULL) {
+    if (arquivo == NULL){
         encerrar_com_erro("Erro: não foi possível abrir o arquivo customer.txt");
     }
+
+    pular_bom(arquivo);
 
     NUMBER_OF_CUSTOMERS = 0;
 
     while ((status = ler_linha(arquivo, linha)) != 0) {
-        if (status == -1) {
+        if (status == -1){
             erro_formato("customer.txt", NUMBER_OF_CUSTOMERS + 1);
         }
         NUMBER_OF_CUSTOMERS++;
     }
 
-    if (NUMBER_OF_CUSTOMERS == 0) {
+    if (NUMBER_OF_CUSTOMERS == 0){
         encerrar_com_erro("Erro: o arquivo customer.txt está vazio");
     }
 
     rewind(arquivo);
+    pular_bom(arquivo);
 
     maximum = criar_matriz(NUMBER_OF_CUSTOMERS, NUMBER_OF_RESOURCES);
     allocation = criar_matriz(NUMBER_OF_CUSTOMERS, NUMBER_OF_RESOURCES);
@@ -172,17 +183,18 @@ void carregar_clientes(void){
     for (i = 0; i < NUMBER_OF_CUSTOMERS; i++) {
         ler_linha(arquivo, linha);
 
-        if (i == 0 && contar_valores(linha) != NUMBER_OF_RESOURCES) {
+        if (i == 0 && contar_valores(linha) != NUMBER_OF_RESOURCES){
             encerrar_com_erro("Erro: o número de argumentos é diferente da quantidade de recursos em customer.txt");
         }
 
-        if (!ler_linha_cliente(linha, maximum[i], NUMBER_OF_RESOURCES)) {
+        if (!ler_linha_cliente(linha, maximum[i], NUMBER_OF_RESOURCES)){
             erro_formato("customer.txt", i + 1);
         }
 
-        for (j = 0; j < NUMBER_OF_RESOURCES; j++) {
+        for (j = 0; j < NUMBER_OF_RESOURCES; j++){
             need[i][j] = maximum[i][j];
         }
     }
+
     fclose(arquivo);
 }
