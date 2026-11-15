@@ -431,4 +431,734 @@ Script started on 2026-11-15 11:51:43-03:00 [TERM="xterm-256color" TTY="/dev/pts
 [?2004lfatal: unable to access 'https://github.com/Lindemberglb/Deadlock.git/': Could not resolve host: github.com
 [?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ script -a a[Kebiden[K[K[K[K[Kvidencias.log
 [?2004lScript started, output log file is 'evidencias.log'.
-[?2004h]0;guitolin@gu
+[?2004h]0;guitolin@guScript started on 2026-11-15 12:52:47-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="138" LINES="13"]
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c banker.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m./banker 10 5 7
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c banker.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 10 5 7
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git add banker.c bankre[K[Ker.h evidencias.log main.c makefile
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git commit -m "[7mAdiciona release_resources e impressão do estado no result.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CAdiciona release_resources e impressão do estado no result.txt[C[1P[1P[1P[1P[1P[1P[1P[1P[1@a[1@d[1@c[1@i[1P[1P[1@o[1@c[1@i[1P[1P[1P[1@i[1@c[1@i[1@o[1@n[1@e[1@i[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P result.txt[1P[1P[1P[1P[1P[1P[1P result.txt[1P[1P[1P result.txt[1P[1P[1P[1P[1P[1P[1P[1P[C[1P result.txt[1Presult.txt[C result.txta result.txtg result.txto result.txtr result.txta result.txt[C result.txti result.txtm result.txtp result.txt[1P result.txt[1P result.txt[1P result.txt[1Presult.txt[1P result.txt[1P result.txt[1P result.txt[1P result.txt[1P result.txti result.txtm result.txt[1P result.txt[1P result.txta result.txtg result.txto result.txtr result.txta result.txt[C result.txti result.txtm result.txtp result.txtr result.txti result.txtm result.txte result.txt[C result.txto result.txt[C result.txt[1Presult.txt[C result.txte result.txts result.txtt result.txta result.txtd result.txto result.txt[C result.txtd result.txte result.txt[C result.txt[1Presult.txt[C[C[C[C[C[C[C[C[C[C[C"
+[?2004l[main 63c03a2] adicionei release_resources e agora imprime o estado de result.txt
+ 5 files changed, 97 insertions(+), 2 deletions(-)
+ create mode 100644 banker.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git push
+[?2004lfatal: unable to access 'https://github.com/Lindemberglb/Deadlock.git/': Could not resolve host: github.com
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllbitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c banker.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m./banker 10 5 7
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c banker.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 10 5 7
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git add banker.c bankre[K[Ker.h evidencias.log main.c makefile
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git commit -m "[7mAdiciona release_resources e impressão do estado no result.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CAdiciona release_resources e impressão do estado no result.txt[C[1P[1P[1P[1P[1P[1P[1P[1P[1@a[1@d[1@c[1@i[1P[1P[1@o[1@c[1@i[1P[1P[1P[1@i[1@c[1@i[1@o[1@n[1@e[1@i[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P result.txt[1P[1P[1P[1P[1P[1P[1P result.txt[1P[1P[1P result.txt[1P[1P[1P[1P[1P[1P[1P[1P[C[1P result.txt[1Presult.txt[C result.txta result.txtg result.txto result.txtr result.txta result.txt[C result.txti result.txtm result.txtp result.txt[1P result.txt[1P result.txt[1P result.txt[1Presult.txt[1P result.txt[1P result.txt[1P result.txt[1P result.txt[1P result.txti result.txtm result.txt[1P result.txt[1P result.txta result.txtg result.txto result.txtr result.txta result.txt[C result.txti result.txtm result.txtp result.txtr result.txti result.txtm result.txte result.txt[C result.txto result.txt[C result.txt[1Presult.txt[C result.txte result.txts result.txtt result.txta result.txtd result.txto result.txt[C result.txtd result.txte result.txt[C result.txt[1Presult.txt[C[C[C[C[C[C[C[C[C[C[C"
+[?2004l[main 63c03a2] adicionei release_resources e agora imprime o estado de result.txt
+ 5 files changed, 97 insertions(+), 2 deletions(-)
+ create mode 100644 banker.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git push
+[?2004lfatal: unable to access 'https://github.com/Lindemberglb/Deadlock.git/': Could not resolve host: github.com
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ script -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;guitolin@guitolinnote: ~/Script started on 2026-11-15 13:19:17-03:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="138" LINES="15"]
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c banker.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c banker.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ;[K./banker 2 4 5
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ mke[K[Kake clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mgit log --oneline[27mgit log --oneline
+[?2004l[?1h=[33m63c03a2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m adicionei release_resources e agora imprime o estado de result.txt[m
+[33mf8245ad[m adicionei leitura e validação do arquivo commands.txt[m
+[33macca555[m adicionei a função pular_bom para ignorar os bytes invisíveis no começo da linha 1 e conseguir ler os arquivos[m
+[33m19a37a2[m[33m ([m[1;31morigin/main[m[33m)[m adicionei a parte de leitura e validação de customer.txt, fiz o gitignore e atualizei o script[m
+[33m4564783[m adicionei o arquivo entrada.c que lê as entradas no código e atualizei o script[m
+[33m796e9a5[m cria a estrutura inicial da main e atualiza o script[m
+[33m3dce9fb[m adicionei o arquivo banker.h e o evidencias.log[m
+[33m3459027[m adicionei o makefile para compilação e o evidencias.log[m
+[33m57bba87[m primeiro commit[m
+[K[?1l>[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   banker.c[m
+	[31mmodified:   banker.h[m
+	[31mmodified:   evidencias.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mgit push origin main[27mgit push origin main
+[?2004lfatal: unable to access 'https://github.com/Lindemberglb/Deadlock.git/': Could not resolve host: github.com
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mgit push origin main[27mgit push origin main
+[?2004lfatal: unable to access 'https://github.com/Lindembergl[00m$ script -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c banker.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c banker.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ;[K./banker 2 4 5
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ mke[K[Kake clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mgit log --oneline[27mgit log --oneline
+[?2004l[?1h=[33m63c03a2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m adicionei release_resources e agora imprime o estado de result.txt[m
+[33mf8245ad[m adicionei leitura e validação do arquivo commands.txt[m
+[33macca555[m adicionei a função pular_bom para ignorar os bytes invisíveis no começo da linha 1 e conseguir ler os arquivos[m
+[33m19a37a2[m[33m ([m[1;31morigin/main[m[33m)[m adicionei a parte de leitura e validação de customer.txt, fiz o gitignore e atualizei o script[m
+[33m4564783[m adicionei o arquivo entrada.c que lê as entradas no código e atualizei o script[m
+[33m796e9a5[m cria a estrutura inicial da main e atualiza o script[m
+[33m3dce9fb[m adicionei o arquivo banker.h e o evidencias.log[m
+[33m3459027[m adicionei o makefile para compilação e o evidencias.log[m
+[33m57bba87[m primeiro commit[m
+[K[?1l>[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   banker.c[m
+	[31mmodified:   banker.h[m
+	[31mmodified:   evidencias.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mgit push origin main[27mgit push origin main
+[?2004lfatal: unable to access 'https://github.com/Lindemberglb/Deadlock.git/': Could not resolve host: github.com
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mgit push origin main[27mgit push origin main
+[?2004lfatal: unable to access 'https://github.com/Lindemberglb/Deadlock.gitgllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c banker.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c banker.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ;[K./banker 2 4 5
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ mke[K[Kake clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mgit log --oneline[27mgit log --oneline
+[?2004l[?1h=[33m63c03a2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m adicionei release_resources e agora imprime o estado de result.txt[m
+[33mf8245ad[m adicionei leitura e validação do arquivo commands.txt[m
+[33macca555[m adicionei a função pular_bom para ignorar os bytes invisíveis no começo da linha 1 e conseguir ler os arquivos[m
+[33m19a37a2[m[33m ([m[1;31morigin/main[m[33m)[m adicionei a parte de leitura e validação de customer.txt, fiz o gitignore e atualizei o script[m
+[33m4564783[m adicionei o arquivo entrada.c que lê as entradas no código e atualizei o script[m
+[33m796e9a5[m cria a estrutura inicial da main e atualiza o script[m
+[33m3dce9fb[m adicionei o arquivo banker.h e o evidencias.log[m
+[33m3459027[m adicionei o makefile para compilação e o evidencias.log[m
+[33m57bba87[m primeiro commit[m
+[K[?1l>[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   banker.c[m
+	[31mmodified:   banker.h[m
+	[31mmodified:   evidencias.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mgit push origin main[27mgit push origin main
+[?2004lfatal: unable to access 'https://github.com/Lindemberglb/Deadlock.git/': Could not resolve host: github.com
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mgit push origin main[27mgit push origin main
+[?2004lfatal: unable to access 'https://github.com/Lindemberglb/Deadlock.git/': Could not resolve host: github.com
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[b/Deadlock.git/': Could not resolve host: github.com
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mping -c 4 8.8.8.8[27mping -c 4 8.8.8.8
+[?2004lPING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=108 time=91.1 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=108 time=53.4 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=108 time=51.4 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=108 time=54.0 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 51.400/62.481/91.120/16.562 ms
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mping -c 4 github.com[27mping -c 4 github.com
+[?2004lping: github.com: Temporary failure in name resolution
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mresolvectl status[27mresolvectl status
+[?2004l[?1h=[0;1;39mGlobal[0m[m
+[0;94m         Protocols:[0m -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported[m
+[0;94m  resolv.conf mode:[0m stub[m
+[m
+[0;1;39mLink 2 (eth0)[0m[m
+[0;94m    Current Scopes:[0m none[m
+[0;94m         Protocols:[0m -DefaultRoute -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported[m
+[K[?1l>[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7msystemctl status systemd-resolved[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl status systemd-resolved
+[?2004l[?1h=[0;1;32m●[0m systemd-resolved.service - Network Name Resolution[m
+     Loaded: loaded (]8;;file://guitolinnote/usr/lib/systemd/system/systemd-resolved.service/usr/lib/systemd/system/systemd-resolved.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
+     Active: [0;1;32mactive (running)[0m since Sun 2026-11-15 11:50:05 -03; 2h 13min ago[m
+       Docs: ]8;;man:systemd-resolved.service(8)man:systemd-resolved.service(8)]8;;[m
+             ]8;;man:org.freedesktop.resolve1(5)man:org.freedesktop.resolve1(5)]8;;[m
+             ]8;;https://www.freedesktop.org/wiki/Software/systemd/writing-network-configuration-managershttps://www.freedesktop.org/wiki/Software/systemd/writing-network-configuration-managers]8;;[m
+             ]8;;https://www.freedesktop.org/wiki/Software/systemd/writing-resolver-clientshttps://www.freedesktop.org/wiki/Software/systemd/writing-resolver-clients]8;;[m
+   Main PID: 122 (systemd-resolve)[m
+     Status: "[0;1;36mProcessing requests...[0m"[m
+      Tasks: 1 (limit: 3319)[m
+     Memory: 6.4M (peak: 8.1M)[m
+        CPU: 2.968s[m
+     CGroup: /system.slice/systemd-resolved.service[m
+             └─[0;38;5;245m122 /usr/lib/systemd/systemd-resolved[0m[m
+[m
+Nov 15 11:50:04 guitolinnote systemd[1]: Starting systemd-resolved.service - Network Name Resolution...[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Positive Trust Anchors:[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: . IN DS 38696 8 2 683d2d0acb8c9b712a1948b27f741219298d0a450d612c483af444a4c0fb2b16[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr[m[7m>[27m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Using system hostname 'guitolinnote'.[m
+Nov 15 11:50:05 guitolinnote systemd[1]: Started systemd-resolved.service - Network Name Resolution.[m
+[7mlines 1-22/22 (END)[27m[K[K [KESCESC[K^J^J[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[K[7ml/': Could not resolve host: github.com
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mping -c 4 8.8.8.8[27mping -c 4 8.8.8.8
+[?2004lPING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=108 time=91.1 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=108 time=53.4 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=108 time=51.4 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=108 time=54.0 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 51.400/62.481/91.120/16.562 ms
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mping -c 4 github.com[27mping -c 4 github.com
+[?2004lping: github.com: Temporary failure in name resolution
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mresolvectl status[27mresolvectl status
+[?2004l[?1h=[0;1;39mGlobal[0m[m
+[0;94m         Protocols:[0m -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported[m
+[0;94m  resolv.conf mode:[0m stub[m
+[m
+[0;1;39mLink 2 (eth0)[0m[m
+[0;94m    Current Scopes:[0m none[m
+[0;94m         Protocols:[0m -DefaultRoute -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported[m
+[K[?1l>[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7msystemctl status systemd-resolved[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl status systemd-resolved
+[?2004l[?1h=[0;1;32m●[0m systemd-resolved.service - Network Name Resolution[m
+     Loaded: loaded (]8;;file://guitolinnote/usr/lib/systemd/system/systemd-resolved.service/usr/lib/systemd/system/systemd-resolved.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
+     Active: [0;1;32mactive (running)[0m since Sun 2026-11-15 11:50:05 -03; 2h 13min ago[m
+       Docs: ]8;;man:systemd-resolved.service(8)man:systemd-resolved.service(8)]8;;[m
+             ]8;;man:org.freedesktop.resolve1(5)man:org.freedesktop.resolve1(5)]8;;[m
+             ]8;;https://www.freedesktop.org/wiki/Software/systemd/writing-network-configuration-managershttps://www.freedesktop.org/wiki/Software/systemd/writing-network-configuration-managers]8;;[m
+             ]8;;https://www.freedesktop.org/wiki/Software/systemd/writing-resolver-clientshttps://www.freedesktop.org/wiki/Software/systemd/writing-resolver-clients]8;;[m
+   Main PID: 122 (systemd-resolve)[m
+     Status: "[0;1;36mProcessing requests...[0m"[m
+      Tasks: 1 (limit: 3319)[m
+     Memory: 6.4M (peak: 8.1M)[m
+        CPU: 2.968s[m
+     CGroup: /system.slice/systemd-resolved.service[m
+             └─[0;38;5;245m122 /usr/lib/systemd/systemd-resolved[0m[m
+[m
+Nov 15 11:50:04 guitolinnote systemd[1]: Starting systemd-resolved.service - Network Name Resolution...[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Positive Trust Anchors:[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: . IN DS 38696 8 2 683d2d0acb8c9b712a1948b27f741219298d0a450d612c483af444a4c0fb2b16[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr[m[7m>[27m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Using system hostname 'guitolinnote'.[m
+Nov 15 11:50:05 guitolinnote systemd[1]: Started systemd-resolved.service - Network Name Resolution.[m
+[7mlines 1-22/22 (END)[27m[K[K [KESCESC[K^J^J[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (00m$ [7mping -c 4 8.8.8.8[27mping -c 4 8.8.8.8
+[?2004lPING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=108 time=91.1 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=108 time=53.4 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=108 time=51.4 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=108 time=54.0 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 51.400/62.481/91.120/16.562 ms
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mping -c 4 github.com[27mping -c 4 github.com
+[?2004lping: github.com: Temporary failure in name resolution
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mresolvectl status[27mresolvectl status
+[?2004l[?1h=[0;1;39mGlobal[0m[m
+[0;94m         Protocols:[0m -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported[m
+[0;94m  resolv.conf mode:[0m stub[m
+[m
+[0;1;39mLink 2 (eth0)[0m[m
+[0;94m    Current Scopes:[0m none[m
+[0;94m         Protocols:[0m -DefaultRoute -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported[m
+[K[?1l>[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7msystemctl status systemd-resolved[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl status systemd-resolved
+[?2004l[?1h=[0;1;32m●[0m systemd-resolved.service - Network Name Resolution[m
+     Loaded: loaded (]8;;file://guitolinnote/usr/lib/systemd/system/systemd-resolved.service/usr/lib/systemd/system/systemd-resolved.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
+     Active: [0;1;32mactive (running)[0m since Sun 2026-11-15 11:50:05 -03; 2h 13min ago[m
+       Docs: ]8;;man:systemd-resolved.service(8)man:systemd-resolved.service(8)]8;;[m
+             ]8;;man:org.freedesktop.resolve1(5)man:org.freedesktop.resolve1(5)]8;;[m
+             ]8;;https://www.freedesktop.org/wiki/Software/systemd/writing-network-configuration-managershttps://www.freedesktop.org/wiki/Software/systemd/writing-network-configuration-managers]8;;[m
+             ]8;;https://www.freedesktop.org/wiki/Software/systemd/writing-resolver-clientshttps://www.freedesktop.org/wiki/Software/systemd/writing-resolver-clients]8;;[m
+   Main PID: 122 (systemd-resolve)[m
+     Status: "[0;1;36mProcessing requests...[0m"[m
+      Tasks: 1 (limit: 3319)[m
+     Memory: 6.4M (peak: 8.1M)[m
+        CPU: 2.968s[m
+     CGroup: /system.slice/systemd-resolved.service[m
+             └─[0;38;5;245m122 /usr/lib/systemd/systemd-resolved[0m[m
+[m
+Nov 15 11:50:04 guitolinnote systemd[1]: Starting systemd-resolved.service - Network Name Resolution...[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Positive Trust Anchors:[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: . IN DS 38696 8 2 683d2d0acb8c9b712a1948b27f741219298d0a450d612c483af444a4c0fb2b16[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr[m[7m>[27m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Using system hostname 'guitolinnote'.[m
+Nov 15 11:50:05 guitolinnote systemd[1]: Started systemd-resolved.service - Network Name Resolution.[m
+[7mlines 1-22/22 (END)[27m[K[K [KESCESC[K^J^J[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[K[7mlines 1-22/22 (END)[27m[K[K[7mlines 1-22/22 (END)[27m[K[K[7mlines 1-22/22 (END)[27m[K...skipping...
+[0;1;32m●[0m systemd-resolvedines 1-22/22 (END)[27m[K[K[7mlines 1-22/22 (END)[27m[K[K[7mlines 1-22/22 (END)[27m[K...skipping...
+[0;1;32m●[0m systemd-resolved.service - Network Name Resolution[m
+     Loaded: loaded (]8;;file://guitolinnote/usr/lib/systemd/system/systemd-resolved.service/usr/lib/systemd/system/systemd-resolved.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
+     Active: [0;1;32mactive (running)[0m since Sun 2026-11-15 11:50:05 -03; 2h 13min ago[m
+       Docs: ]8;;man:systemd-resolved.service(8)man:systemd-resolved.service(8)]8;;[m
+             ]8;;man:org.freedesktop.resolve1(5)man:org.freedesktop.resolve1(5)]8;;[m
+             ]8;;https://www.freedesktop.org/wiki/Software/systemd/writing-network-configuration-managershttps://www.freedesktop.org/wiki/Software/systemd/writing-network-configuration-managers]8;;[m
+             ]8;;https://www.freedesktop.org/wiki/Software/systemd/writing-resolver-clientshttps://www.freedesktop.org/wiki/Software/systemd/writing-resolver-clients]8;;[m
+   Main PID: 122 (systemd-resolve)[m
+     Status: "[0;1;36mProcessing requests...[0m"[m
+      Tasks: 1 (limit: 3319)[m
+     Memory: 6.4M (peak: 8.1M)[m
+        CPU: 2.968s[m
+     CGroup: /system.slice/systemd-resolved.service[m
+             └─[0;38;5;245m122 /usr/lib/systemd/systemd-resolved[0m[m
+[m
+Nov 15 11:50:04 guitolinnote systemd[1]: Starting systemd-resolved.service - Network Name Resolution...[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Positive Trust Anchors:[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: . IN DS 38696 8 2 683d2d0acb8c9b712a1948b27f741219298d0a450d612c483af444a4c0fb2b16[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr[m[7m>[27m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Using system hostname 'guitolinnote'.[m
+Nov 15 11:50:05 guitolinnote systemd[1]: Started systemd-resolved.service - Network Name Resolution.[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[K[7mNo next tag  (press RETURN)[27m[33;1H[K[7mlines 1-22/22 (END)[27m[K[K/[Kee[Ktt[Kcc[K//[Krr[Kee[Kss[Koo[Kll[Kvv[K..[Kcc[Koo[Knn[Kff
+[1]+  Stopped                 systemctl status systemd-resolved
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [200~cat /etc/resolv.conf~
+[?2004l[200~cat: command not found
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mcat /etc/resolv.conf[27mcat /etc/resolv.conf
+[?2004l# This is /run/systemd/resolve/stub-resolv.conf managed by man:systemd-resolved(8).
+# Do not edit.
+#
+# This file might be symlinked as /etc/resolv.conf. If you're looking at
+# /etc/resolv.conf and seeing this text, you have followed the symlink.
+#
+# This is a dynamic resolv.conf file for connecting local clients to the
+# internal DNS stub resolver of systemd-resolved. This file lists all
+# configured search domains.
+#
+# Run "resolvectl status" to see details about the uplink DNS servers
+# currently in use.
+#
+# Third party programs should typically not access this file directly, but only
+# through the symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a
+# different way, replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 127.0.0.53
+options edns0 trust-ad
+search .
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mgit push[27mgit push
+[?2004lfatal: unable to access 'https://github.com/Lindemberglb/Deadlock.git/': Could END)[27m[K[K[7mlines 1-22/22 (END)[27m[K[K[7mlines 1-22/22 (END)[27m[K...skipping...
+[0;1;32m●[0m systemd-resolved.service - Network Name Resolution[m
+     Loaded: loaded (]8;;file://guitolinnote/usr/lib/systemd/system/systemd-resolved.service/usr/lib/systemd/system/systemd-resolved.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
+     Active: [0;1;32mactive (running)[0m since Sun 2026-11-15 11:50:05 -03; 2h 13min ago[m
+       Docs: ]8;;man:systemd-resolved.service(8)man:systemd-resolved.service(8)]8;;[m
+             ]8;;man:org.freedesktop.resolve1(5)man:org.freedesktop.resolve1(5)]8;;[m
+             ]8;;https://www.freedesktop.org/wiki/Software/systemd/writing-network-configuration-managershttps://www.freedesktop.org/wiki/Software/systemd/writing-network-configuration-managers]8;;[m
+             ]8;;https://www.freedesktop.org/wiki/Software/systemd/writing-resolver-clientshttps://www.freedesktop.org/wiki/Software/systemd/writing-resolver-clients]8;;[m
+   Main PID: 122 (systemd-resolve)[m
+     Status: "[0;1;36mProcessing requests...[0m"[m
+      Tasks: 1 (limit: 3319)[m
+     Memory: 6.4M (peak: 8.1M)[m
+        CPU: 2.968s[m
+     CGroup: /system.slice/systemd-resolved.service[m
+             └─[0;38;5;245m122 /usr/lib/systemd/systemd-resolved[0m[m
+[m
+Nov 15 11:50:04 guitolinnote systemd[1]: Starting systemd-resolved.service - Network Name Resolution...[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Positive Trust Anchors:[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: . IN DS 38696 8 2 683d2d0acb8c9b712a1948b27f741219298d0a450d612c483af444a4c0fb2b16[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr[m[7m>[27m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Using system hostname 'guitolinnote'.[m
+Nov 15 11:50:05 guitolinnote systemd[1]: Started systemd-resolved.service - Network Name Resolution.[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[K[7mNo next tag  (press RETURN)[27m[33;1H[K[7mlines 1-22/22 (END)[27m[K[K/[Kee[Ktt[Kcc[K//[Krr[Kee[Kss[Koo[Kll[Kvv[K..[Kcc[Koo[Knn[Kff
+[1]+  Stopped                 systemctl status systemd-resolved
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [200~cat /etc/resolv.conf~
+[?2004l[200~cat: command not found
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mcat /etc/resolv.conf[27mcat /etc/resolv.conf
+[?2004l# This is /run/systemd/resolve/stub-resolv.conf managed by man:systemd-resolved(8).
+# Do not edit.
+#
+# This file might be symlinked as /etc/resolv.conf. If you're looking at
+# /etc/resolv.conf and seeing this text, you have followed the symlink.
+#
+# This is a dynamic resolv.conf file for connecting local clients to the
+# internal DNS stub resolver of systemd-resolved. This file lists all
+# configured search domains.
+#
+# Run "resolvectl status" to see details about the uplink DNS servers
+# currently in use.
+#
+# Third party programs should typically not access this file directly, but only
+# through the symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a
+# different way, replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 127.0.0.53
+options edns0 trust-ad
+search .
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mgit push[27mgit push
+[?2004lfatal: unable to access 'https://github.com/Lindemberglb/Deadlock.git/': Could not resolve ho.service - Network Name Resolution[m
+     Loaded: loaded (]8;;file://guitolinnote/usr/lib/systemd/system/systemd-resolved.service/usr/lib/systemd/system/systemd-resolved.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
+     Active: [0;1;32mactive (running)[0m since Sun 2026-11-15 11:50:05 -03; 2h 13min ago[m
+       Docs: ]8;;man:systemd-resolved.service(8)man:systemd-resolved.service(8)]8;;[m
+             ]8;;man:org.freedesktop.resolve1(5)man:org.freedesktop.resolve1(5)]8;;[m
+             ]8;;https://www.freedesktop.org/wiki/Software/systemd/writing-network-configuration-managershttps://www.freedesktop.org/wiki/Software/systemd/writing-network-configuration-managers]8;;[m
+             ]8;;https://www.freedesktop.org/wiki/Software/systemd/writing-resolver-clientshttps://www.freedesktop.org/wiki/Software/systemd/writing-resolver-clients]8;;[m
+   Main PID: 122 (systemd-resolve)[m
+     Status: "[0;1;36mProcessing requests...[0m"[m
+      Tasks: 1 (limit: 3319)[m
+     Memory: 6.4M (peak: 8.1M)[m
+        CPU: 2.968s[m
+     CGroup: /system.slice/systemd-resolved.service[m
+             └─[0;38;5;245m122 /usr/lib/systemd/systemd-resolved[0m[m
+[m
+Nov 15 11:50:04 guitolinnote systemd[1]: Starting systemd-resolved.service - Network Name Resolution...[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Positive Trust Anchors:[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: . IN DS 38696 8 2 683d2d0acb8c9b712a1948b27f741219298d0a450d612c483af444a4c0fb2b16[m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr[m[7m>[27m
+Nov 15 11:50:05 guitolinnote systemd-resolved[122]: Using system hostname 'guitolinnote'.[m
+Nov 15 11:50:05 guitolinnote systemd[1]: Started systemd-resolved.service - Network Name Resolution.[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[K[7mNo next tag  (press RETURN)[27m[33;1H[K[7mlines 1-22/22 (END)[27m[K[K/[Kee[Ktt[Kcc[K//[Krr[Kee[Kss[Koo[Kll[Kvv[K..[Kcc[Koo[Knn[Kff
+[1]+  Stopped                 systemctl status systemd-resolved
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [200~cat /etc/resolv.conf~
+[?2004l[200~cat: command not found
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mcat /etc/resolv.conf[27mcat /etc/resolv.conf
+[?2004l# This is /run/systemd/resolve/stub-resolv.conf managed by man:systemd-resolved(8).
+# Do not edit.
+#
+# This file might be symlinked as /etc/resolv.conf. If you're looking at
+# /etc/resolv.conf and seeing this text, you have followed the symlink.
+#
+# This is a dynamic resolv.conf file for connecting local clients to the
+# internal DNS stub resolver of systemd-resolved. This file lists all
+# configured search domains.
+#
+# Run "resolvectl status" to see details about the uplink DNS servers
+# currently in use.
+#
+# Third party programs should typically not access this file directly, but only
+# through the symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a
+# different way, replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 127.0.0.53
+options edns0 trust-ad
+search .
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mgit push[27mgit push
+[?2004lfatal: unable to access 'https://github.com/Lindemberglb/Deadlock.git/': Could not resolve host: github.com
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@gnot resolve host: github.com
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7msudo nano /etc/systemd/resolved.conf[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nano /etc/systemd/resolved.conf
+[?2004l[sudo] password for guitolin: 
+[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;63H(B[0;7m[ Reading... ](B[m[31;61H(B[0;7m[ Read 37 lines ](B[m[H(B[0;7m  GNU nano 7.2                                            /etc/systemd/resolved.conf                                                      [1;137H(B[m[32d(B[0;7m^G(B[m Help[32;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[32;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[32;120H(B[0;7mM-A(B[m Set Mark[33d(B[0;7m^X(B[m Exit[33;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[33;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[33;120H(B[0;7mM-6(B[m Copy[2d[36m#  This file is part of systemd.[3d#[4d#  systemd is free software; you can redistribute it and/or modify it under the[5d#  terms of the GNU Lesser General Public License as published by the Free[6d#  Software Foundation; either version 2.1 of the License, or (at your option)[7d#  any later version.[8d#[9d# Entries in this file show the compile time defaults. Local configuration[10d# should be created by either modifying this file (or a copy of it placed in[11d# /etc/ if the original file is shipped in /usr/), or by creating "drop-ins" in[12d# the /etc/systemd/resolved.conf.d/ directory. The latter is generally[13d# recommended. Defaults can be restored by simply deleting the main[14d# configuration file and all drop-ins located in /etc/.[15d#[16d# Use 'systemd-analyze cat-config systemd/resolved.conf' to display the full config.[17d#[18d# See resolved.conf(5) for details.[20d(B[0;1m[32m[Resolve][21d(B[0m[36m# Some examples of DNS servers which may be used for DNS= and FallbackDNS=:[22d# Cloudflare: 1.1.1.1#cloudflare-dns.com 1.0.0.1#cloudflare-dns.com 2606:4700:4700::1111#cloudflare-dns.com 2606:4700:4700::1001#cloudfla[39m(B[0;7m>[23;1H(B[0m[36m# Google:     8.8.8.8#dns.google 8.8.4.4#dns.google 2001:4860:4860::8888#dns.google 2001:4860:4860::8844#dns.google[24d# Quad9:      9.9.9.9#dns.quad9.net 149.112.112.112#dns.quad9.net 2620:fe::fe#dns.quad9.net 2620:fe::9#dns.quad9.net[25d#DNS=[26d#FallbackDNS=[27d#Domains=[28d#DNSSEC=no[29d#DNSOverTLS=no[30d#MulticastDNS=no[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[1;86H(B[0;7m*[137G(B[m[?12l[?25h[2d[36m #  This file is part of systemd. [39m(B[m[?25l[?12l[?25h[36m  #  This file is part of systemd.  [39m(B[m[?25l[?12l[?25h[1P[C[?25l[?12l[?25h[1P[?25l[?12l[?25h[3d[?25l[31d[K[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#LLMNR=nst: github.com
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7msudo nano /etc/systemd/resolved.conf[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nano /etc/systemd/resolved.conf
+[?2004l[sudo] password for guitolin: 
+[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;63H(B[0;7m[ Reading... ](B[m[31;61H(B[0;7m[ Read 37 lines ](B[m[H(B[0;7m  GNU nano 7.2                                            /etc/systemd/resolved.conf                                                      [1;137H(B[m[32d(B[0;7m^G(B[m Help[32;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[32;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[32;120H(B[0;7mM-A(B[m Set Mark[33d(B[0;7m^X(B[m Exit[33;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[33;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[33;120H(B[0;7mM-6(B[m Copy[2d[36m#  This file is part of systemd.[3d#[4d#  systemd is free software; you can redistribute it and/or modify it under the[5d#  terms of the GNU Lesser General Public License as published by the Free[6d#  Software Foundation; either version 2.1 of the License, or (at your option)[7d#  any later version.[8d#[9d# Entries in this file show the compile time defaults. Local configuration[10d# should be created by either modifying this file (or a copy of it placed in[11d# /etc/ if the original file is shipped in /usr/), or by creating "drop-ins" in[12d# the /etc/systemd/resolved.conf.d/ directory. The latter is generally[13d# recommended. Defaults can be restored by simply deleting the main[14d# configuration file and all drop-ins located in /etc/.[15d#[16d# Use 'systemd-analyze cat-config systemd/resolved.conf' to display the full config.[17d#[18d# See resolved.conf(5) for details.[20d(B[0;1m[32m[Resolve][21d(B[0m[36m# Some examples of DNS servers which may be used for DNS= and FallbackDNS=:[22d# Cloudflare: 1.1.1.1#cloudflare-dns.com 1.0.0.1#cloudflare-dns.com 2606:4700:4700::1111#cloudflare-dns.com 2606:4700:4700::1001#cloudfla[39m(B[0;7m>[23;1H(B[0m[36m# Google:     8.8.8.8#dns.google 8.8.4.4#dns.google 2001:4860:4860::8888#dns.google 2001:4860:4860::8844#dns.google[24d# Quad9:      9.9.9.9#dns.quad9.net 149.112.112.112#dns.quad9.net 2620:fe::fe#dns.quad9.net 2620:fe::9#dns.quad9.net[25d#DNS=[26d#FallbackDNS=[27d#Domains=[28d#DNSSEC=no[29d#DNSOverTLS=no[30d#MulticastDNS=no[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[1;86H(B[0;7m*[137G(B[m[?12l[?25h[2d[36m #  This file is part of systemd. [39m(B[m[?25l[?12l[?25h[36m  #  This file is part of systemd.  [39m(B[m[?25l[?12l[?25h[1P[C[?25l[?12l[?25h[1P[?25l[?12l[?25h[3d[?25l[31d[K[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#LLMNR=no[39m(B[muitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7msudo nano /etc/systemd/resolved.conf[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo nano /etc/systemd/resolved.conf
+[?2004l[sudo] password for guitolin: 
+[?2004h[?1049h[22;0;0t[1;33r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[31;63H(B[0;7m[ Reading... ](B[m[31;61H(B[0;7m[ Read 37 lines ](B[m[H(B[0;7m  GNU nano 7.2                                            /etc/systemd/resolved.conf                                                      [1;137H(B[m[32d(B[0;7m^G(B[m Help[32;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[32;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[32;120H(B[0;7mM-A(B[m Set Mark[33d(B[0;7m^X(B[m Exit[33;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[33;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[33;120H(B[0;7mM-6(B[m Copy[2d[36m#  This file is part of systemd.[3d#[4d#  systemd is free software; you can redistribute it and/or modify it under the[5d#  terms of the GNU Lesser General Public License as published by the Free[6d#  Software Foundation; either version 2.1 of the License, or (at your option)[7d#  any later version.[8d#[9d# Entries in this file show the compile time defaults. Local configuration[10d# should be created by either modifying this file (or a copy of it placed in[11d# /etc/ if the original file is shipped in /usr/), or by creating "drop-ins" in[12d# the /etc/systemd/resolved.conf.d/ directory. The latter is generally[13d# recommended. Defaults can be restored by simply deleting the main[14d# configuration file and all drop-ins located in /etc/.[15d#[16d# Use 'systemd-analyze cat-config systemd/resolved.conf' to display the full config.[17d#[18d# See resolved.conf(5) for details.[20d(B[0;1m[32m[Resolve][21d(B[0m[36m# Some examples of DNS servers which may be used for DNS= and FallbackDNS=:[22d# Cloudflare: 1.1.1.1#cloudflare-dns.com 1.0.0.1#cloudflare-dns.com 2606:4700:4700::1111#cloudflare-dns.com 2606:4700:4700::1001#cloudfla[39m(B[0;7m>[23;1H(B[0m[36m# Google:     8.8.8.8#dns.google 8.8.4.4#dns.google 2001:4860:4860::8888#dns.google 2001:4860:4860::8844#dns.google[24d# Quad9:      9.9.9.9#dns.quad9.net 149.112.112.112#dns.quad9.net 2620:fe::fe#dns.quad9.net 2620:fe::9#dns.quad9.net[25d#DNS=[26d#FallbackDNS=[27d#Domains=[28d#DNSSEC=no[29d#DNSOverTLS=no[30d#MulticastDNS=no[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[1;86H(B[0;7m*[137G(B[m[?12l[?25h[2d[36m #  This file is part of systemd. [39m(B[m[?25l[?12l[?25h[36m  #  This file is part of systemd.  [39m(B[m[?25l[?12l[?25h[1P[C[?25l[?12l[?25h[1P[?25l[?12l[?25h[3d[?25l[31d[K[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#LLMNR=no[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#Cache=no-negative[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1Ho[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#Cache=no-negative[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#CacheFromLocalhost=no[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#DNSStubListener=yes[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#DNSStubListenerExtra=[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#ReadEtcHosts=yes[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#ResolveUnicastSingleLabel=no[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#StaleRetentionSec=0[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[29d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[36m8.8.8.8 1.1.1.1[39m(B[m[?12l[?25h[?25l[?12l[?25h[17;14H[?25l[36m8.8.4.4 1.0.0.1[39m(B[m[?12l[?25h[?25l[32;18H[17X[32;35H(B[0;7mM-D(B[m DOS Format         [32;69H(B[0;7mM-A(B[m Append[86G           [32;105H(B[0;7mB(B[m Backup File[K[33;2H(B[0;7mC(B[m Cancel[33;18H[17X[33;35H(B[0;7mM-M(B[m Mac Format           [33;69H(B[0;7mM-P(B[m Prepend[86G[17X[33;103H(B[0;7m^T(B[m Browse[K[31d(B[0;7mFile Name to Write: /etc/systemd/resolved.conf                                                                                            [31;47H(B[m[?12l[?25h[?25l[31;62H[1K (B[0;7m[ Writing... ](B[m[K[1;86H(B[0;7m [137G(B[m[31;61H(B[0;7m[ Wrote 37 lines ](B[m[32;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut[32;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[32;105H(B[0;7mU(B[m Undo         (B[0;7mM-A(B[m Set Mark[33;2H(B[0;7mX(B[m Exit  [33;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Paste[33;69H(B[0;7m^J(B[m Justify [86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo [33;120H(B[0;7mM-6(B[m Copy[?12l[?25h[17;29H[?25l[31;57H(B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[?12l[?25h[17;29H[?25l[32;18H[17X[32;35H(B[0;7mM-D(B[m DOS Format         [32;69H(B[0;7mM-A(B[m Append[86G           [32;105H(B[0;7mB(B[m Backup File[K[33;2H(B[0;7mC(B[m Cancel[33;18H[17X[33;35H(B[0;7mM-M(B[m Mac Format           [33;69H(B[0;7mM-P(B[m Prepend[86G[17X[33;103H(B[0;7m^T(B[m Browse[K[31d(B[0;7mFile Name to Write: /etc/systemd/resolved.conf                                                                                            [31;47H(B[m[?12l[?25h[?25l[31;62H[1K (B[0;7m[ Writing... ](B[m[K[1;137H[31;61H(B[0;7m[ Wrote 37 lines ](B[m[32;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut[32;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[32;105H(B[0;7mU(B[m Undo         (B[0;7mM-A(B[m Set Mark[33;2H(B[0;7mX(B[m Exit  [33;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Paste[33;69H(B[0;7m^J(B[m Justify [86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo [33;120H(B[0;7mM-6(B[m Copy[?12l[?25h[17;29H[?25l[31d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7msudo systemctl restart systemd-resolved[27m[C[C[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#Cache=no-negative[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#CacheFromLocalhost=no[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#DNSStubListener=yes[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#DNSStubListenerExtra=[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#ReadEtcHosts=yes[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#ResolveUnicastSingleLabel=no[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#StaleRetentionSec=0[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[29d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[36m8.8.8.8 1.1.1.1[39m(B[m[?12l[?25h[?25l[?12l[?25h[17;14H[?25l[36m8.8.4.4 1.0.0.1[39m(B[m[?12l[?25h[?25l[32;18H[17X[32;35H(B[0;7mM-D(B[m DOS Format         [32;69H(B[0;7mM-A(B[m Append[86G           [32;105H(B[0;7mB(B[m Backup File[K[33;2H(B[0;7mC(B[m Cancel[33;18H[17X[33;35H(B[0;7mM-M(B[m Mac Format           [33;69H(B[0;7mM-P(B[m Prepend[86G[17X[33;103H(B[0;7m^T(B[m Browse[K[31d(B[0;7mFile Name to Write: /etc/systemd/resolved.conf                                                                                            [31;47H(B[m[?12l[?25h[?25l[31;62H[1K (B[0;7m[ Writing... ](B[m[K[1;86H(B[0;7m [137G(B[m[31;61H(B[0;7m[ Wrote 37 lines ](B[m[32;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut[32;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[32;105H(B[0;7mU(B[m Undo         (B[0;7mM-A(B[m Set Mark[33;2H(B[0;7mX(B[m Exit  [33;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Paste[33;69H(B[0;7m^J(B[m Justify [86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo [33;120H(B[0;7mM-6(B[m Copy[?12l[?25h[17;29H[?25l[31;57H(B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[?12l[?25h[17;29H[?25l[32;18H[17X[32;35H(B[0;7mM-D(B[m DOS Format         [32;69H(B[0;7mM-A(B[m Append[86G           [32;105H(B[0;7mB(B[m Backup File[K[33;2H(B[0;7mC(B[m Cancel[33;18H[17X[33;35H(B[0;7mM-M(B[m Mac Format           [33;69H(B[0;7mM-P(B[m Prepend[86G[17X[33;103H(B[0;7m^T(B[m Browse[K[31d(B[0;7mFile Name to Write: /etc/systemd/resolved.conf                                                                                            [31;47H(B[m[?12l[?25h[?25l[31;62H[1K (B[0;7m[ Writing... ](B[m[K[1;137H[31;61H(B[0;7m[ Wrote 37 lines ](B[m[32;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut[32;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[32;105H(B[0;7mU(B[m Undo         (B[0;7mM-A(B[m Set Mark[33;2H(B[0;7mX(B[m Exit  [33;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Paste[33;69H(B[0;7m^J(B[m Justify [86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo [33;120H(B[0;7mM-6(B[m Copy[?12l[?25h[17;29H[?25l[31d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7msudo systemctl restart systemd-resolved[27m[C[C[C[C[C[C[C[36m#CacheFromLocalhost=no[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#DNSStubListener=yes[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#DNSStubListenerExtra=[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#ReadEtcHosts=yes[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#ResolveUnicastSingleLabel=no[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[36m#StaleRetentionSec=0[39m(B[m[?25l[?12l[?25h7[2;31r8[31d
+[1;33r[30;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[29d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[36m8.8.8.8 1.1.1.1[39m(B[m[?12l[?25h[?25l[?12l[?25h[17;14H[?25l[36m8.8.4.4 1.0.0.1[39m(B[m[?12l[?25h[?25l[32;18H[17X[32;35H(B[0;7mM-D(B[m DOS Format         [32;69H(B[0;7mM-A(B[m Append[86G           [32;105H(B[0;7mB(B[m Backup File[K[33;2H(B[0;7mC(B[m Cancel[33;18H[17X[33;35H(B[0;7mM-M(B[m Mac Format           [33;69H(B[0;7mM-P(B[m Prepend[86G[17X[33;103H(B[0;7m^T(B[m Browse[K[31d(B[0;7mFile Name to Write: /etc/systemd/resolved.conf                                                                                            [31;47H(B[m[?12l[?25h[?25l[31;62H[1K (B[0;7m[ Writing... ](B[m[K[1;86H(B[0;7m [137G(B[m[31;61H(B[0;7m[ Wrote 37 lines ](B[m[32;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut[32;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[32;105H(B[0;7mU(B[m Undo         (B[0;7mM-A(B[m Set Mark[33;2H(B[0;7mX(B[m Exit  [33;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Paste[33;69H(B[0;7m^J(B[m Justify [86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo [33;120H(B[0;7mM-6(B[m Copy[?12l[?25h[17;29H[?25l[31;57H(B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[?12l[?25h[17;29H[?25l[32;18H[17X[32;35H(B[0;7mM-D(B[m DOS Format         [32;69H(B[0;7mM-A(B[m Append[86G           [32;105H(B[0;7mB(B[m Backup File[K[33;2H(B[0;7mC(B[m Cancel[33;18H[17X[33;35H(B[0;7mM-M(B[m Mac Format           [33;69H(B[0;7mM-P(B[m Prepend[86G[17X[33;103H(B[0;7m^T(B[m Browse[K[31d(B[0;7mFile Name to Write: /etc/systemd/resolved.conf                                                                                            [31;47H(B[m[?12l[?25h[?25l[31;62H[1K (B[0;7m[ Writing... ](B[m[K[1;137H[31;61H(B[0;7m[ Wrote 37 lines ](B[m[32;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut[32;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[32;105H(B[0;7mU(B[m Undo         (B[0;7mM-A(B[m Set Mark[33;2H(B[0;7mX(B[m Exit  [33;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Paste[33;69H(B[0;7m^J(B[m Justify [86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo [33;120H(B[0;7mM-6(B[m Copy[?12l[?25h[17;29H[?25l[31d[J[33d[?12l[?25h[33;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7msudo systemctl restart systemd-resolved[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl restart systemd-resolved
+[?2004l[?2004h]0;gu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl restart systemd-resolved
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mresolvectl query github.com[27mresolvectl query github.com
+[?2004l[0;1;31mgithub.com: resolve call failed: No appropriate name servers or networks for name found[0m
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mnmcli device status[27mnmcli device status
+[?2004lCommand 'nmcli' not found, but can be installed with:
+sudo snap install network-manager  # version 1.2.2-32, or
+sudo apt  install network-manager  # version 1.46.0-1ubuntu2.7
+See 'snap info network-manager' for additional versions.
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mnmcli connection show --active[27mnmcli connection show --active
+[?2004lCommand 'nmcli' not found, but can be installed with:
+sudo snap install network-manager  # version 1.2.2-32, or
+sudo apt  install network-manager  # version 1.46.0-1ubuntu2.7
+See 'snap info network-manager' for additional versions.
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mresolvectl status[27mresolvectl status
+[?2004l[?1h=[0;1;39mGlobal[0m[m
+[0;94m         Protocols:[0m -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported[m
+[0;94m  resolv.conf mode:[0m stub[m
+[m
+[0;1;39mLink 2 (eth0)[0m[m
+[0;94m    Current Scopes:[0m none[m
+[0;94m         Protocols:[0m -DefaultRoute -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported[m
+[K[?1l>[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mip route[27mip route
+[?2004ldefault via 172.21.32.1 dev eth0 proto kernel 
+172.21.32.0/20 dev eth0 proto kernel scope link src 172.21.38.63 
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mip -brief addr[27mip -brief addr
+[?2004llo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128 
+eth0             UP             172.21.38.63/20 fe80::215:5dff:fe62:4d7b/64 
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mcat /etc/systemd/resolved.conf[27mcat /etc/systemd/resolved.conf
+[?2004l#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it under the
+#  terms of the GNU Lesser General Public License as published by the Free
+#  Software Foundation; either version 2.1 of the License, or (at your option)
+#  any later version.
+#
+# Entries in this file show the compile time defaults. Local configuration
+# should be created by either modifying this file (or a copy of it placed in
+# /etc/ if the original file is shipped in /usr/), or by creating "drop-ins" in
+# the /etc/systemd/resolved.conf.d/ directory. The latter is generally
+# recommended. Defaults can be restored by simply deleting the main
+# configuration file and all drop-ins located in /etc/.
+#
+# Use 'systemd-analyze cat-config systemd/resolved.conf' to display the full config.
+#
+# See resolved.conf(5) for details.
+
+[Resolve]
+# Some examples of DNS servers which may be used for DNS= and FallbackDNS=:
+# Cloudflare: 1.1.1.1#cloudflare-dns.com 1.0.0.1#cloudflare-dns.com 2606:4700:4700::1111#cloudflare-dns.com 2606:4700:4700::1001#cloudflare-dns.com
+# Google:     8.8.8.8#dns.google 8.8.4.4#dns.google 2001:4860:4860::8888#dns.google 2001:4860:4860::8844#dns.google
+# Quad9:      9.9.9.9#dns.quad9.net 149.112.112.112#dns.quad9.net 2620:fe::fe#dns.quad9.net 2620:fe::9#dns.quad9.net
+#DNS=8.8.8.8 1.1.1.1
+#FallbackDNS=8.8.4.4 1.0.0.1
+#Domains=
+#DNSSEC=no
+#DNSOverTLS=no
+#MulticastDNS=no
+#LLMNR=no
+#Cache=no-negative
+#CacheFromLocalhost=no
+#DNSStubListener=yes
+#DN[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl restart systemd-resolved
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mresolvectl query github.com[27mresolvectl query github.com
+[?2004l[0;1;31mgithub.com: resolve call failed: No appropriate name servers or networks for name found[0m
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mnmcli device status[27mnmcli device status
+[?2004lCommand 'nmcli' not found, but can be installed with:
+sudo snap install network-manager  # version 1.2.2-32, or
+sudo apt  install network-manager  # version 1.46.0-1ubuntu2.7
+See 'snap info network-manager' for additional versions.
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mnmcli connection show --active[27mnmcli connection show --active
+[?2004lCommand 'nmcli' not found, but can be installed with:
+sudo snap install network-manager  # version 1.2.2-32, or
+sudo apt  install network-manager  # version 1.46.0-1ubuntu2.7
+See 'snap info network-manager' for additional versions.
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mresolvectl status[27mresolvectl status
+[?2004l[?1h=[0;1;39mGlobal[0m[m
+[0;94m         Protocols:[0m -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported[m
+[0;94m  resolv.conf mode:[0m stub[m
+[m
+[0;1;39mLink 2 (eth0)[0m[m
+[0;94m    Current Scopes:[0m none[m
+[0;94m         Protocols:[0m -DefaultRoute -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported[m
+[K[?1l>[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mip route[27mip route
+[?2004ldefault via 172.21.32.1 dev eth0 proto kernel 
+172.21.32.0/20 dev eth0 proto kernel scope link src 172.21.38.63 
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mip -brief addr[27mip -brief addr
+[?2004llo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128 
+eth0             UP             172.21.38.63/20 fe80::215:5dff:fe62:4d7b/64 
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mcat /etc/systemd/resolved.conf[27mcat /etc/systemd/resolved.conf
+[?2004l#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it under the
+#  terms of the GNU Lesser General Public License as published by the Free
+#  Software Foundation; either version 2.1 of the License, or (at your option)
+#  any later version.
+#
+# Entries in this file show the compile time defaults. Local configuration
+# should be created by either modifying this file (or a copy of it placed in
+# /etc/ if the original file is shipped in /usr/), or by creating "drop-ins" in
+# the /etc/systemd/resolved.conf.d/ directory. The latter is generally
+# recommended. Defaults can be restored by simply deleting the main
+# configuration file and all drop-ins located in /etc/.
+#
+# Use 'systemd-analyze cat-config systemd/resolved.conf' to display the full config.
+#
+# See resolved.conf(5) for details.
+
+[Resolve]
+# Some examples of DNS servers which may be used for DNS= and FallbackDNS=:
+# Cloudflare: 1.1.1.1#cloudflare-dns.com 1.0.0.1#cloudflare-dns.com 2606:4700:4700::1111#cloudflare-dns.com 2606:4700:4700::1001#cloudflare-dns.com
+# Google:     8.8.8.8#dns.google 8.8.4.4#dns.google 2001:4860:4860::8888#dns.google 2001:4860:4860::8844#dns.google
+# Quad9:      9.9.9.9#dns.quad9.net 149.112.112.112#dns.quad9.net 2620:fe::fe#dns.quad9.net 2620:fe::9#dns.quad9.net
+#DNS=8.8.8.8 1.1.1.1
+#FallbackDNS=8.8.4.4 1.0.0.1
+#Domains=
+#DNSSEC=no
+#DNSOverTLS=no
+#MulticastDNS=no
+#LLMNR=no
+#Cache=no-negative
+#CacheFromLocalhost=no
+#DNSStubListener=yes
+#DNSStubListenerEitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mresolvectl query github.com[27mresolvectl query github.com
+[?2004l[0;1;31mgithub.com: resolve call failed: No appropriate name servers or networks for name found[0m
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mnmcli device status[27mnmcli device status
+[?2004lCommand 'nmcli' not found, but can be installed with:
+sudo snap install network-manager  # version 1.2.2-32, or
+sudo apt  install network-manager  # version 1.46.0-1ubuntu2.7
+See 'snap info network-manager' for additional versions.
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mnmcli connection show --active[27mnmcli connection show --active
+[?2004lCommand 'nmcli' not found, but can be installed with:
+sudo snap install network-manager  # version 1.2.2-32, or
+sudo apt  install network-manager  # version 1.46.0-1ubuntu2.7
+See 'snap info network-manager' for additional versions.
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mresolvectl status[27mresolvectl status
+[?2004l[?1h=[0;1;39mGlobal[0m[m
+[0;94m         Protocols:[0m -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported[m
+[0;94m  resolv.conf mode:[0m stub[m
+[m
+[0;1;39mLink 2 (eth0)[0m[m
+[0;94m    Current Scopes:[0m none[m
+[0;94m         Protocols:[0m -DefaultRoute -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported[m
+[K[?1l>[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mip route[27mip route
+[?2004ldefault via 172.21.32.1 dev eth0 proto kernel 
+172.21.32.0/20 dev eth0 proto kernel scope link src 172.21.38.63 
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mip -brief addr[27mip -brief addr
+[?2004llo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128 
+eth0             UP             172.21.38.63/20 fe80::215:5dff:fe62:4d7b/64 
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mcat /etc/systemd/resolved.conf[27mcat /etc/systemd/resolved.conf
+[?2004l#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it under the
+#  terms of the GNU Lesser General Public License as published by the Free
+#  Software Foundation; either version 2.1 of the License, or (at your option)
+#  any later version.
+#
+# Entries in this file show the compile time defaults. Local configuration
+# should be created by either modifying this file (or a copy of it placed in
+# /etc/ if the original file is shipped in /usr/), or by creating "drop-ins" in
+# the /etc/systemd/resolved.conf.d/ directory. The latter is generally
+# recommended. Defaults can be restored by simply deleting the main
+# configuration file and all drop-ins located in /etc/.
+#
+# Use 'systemd-analyze cat-config systemd/resolved.conf' to display the full config.
+#
+# See resolved.conf(5) for details.
+
+[Resolve]
+# Some examples of DNS servers which may be used for DNS= and FallbackDNS=:
+# Cloudflare: 1.1.1.1#cloudflare-dns.com 1.0.0.1#cloudflare-dns.com 2606:4700:4700::1111#cloudflare-dns.com 2606:4700:4700::1001#cloudflare-dns.com
+# Google:     8.8.8.8#dns.google 8.8.4.4#dns.google 2001:4860:4860::8888#dns.google 2001:4860:4860::8844#dns.google
+# Quad9:      9.9.9.9#dns.quad9.net 149.112.112.112#dns.quad9.net 2620:fe::fe#dns.quad9.net 2620:fe::9#dns.quad9.net
+#DNS=8.8.8.8 1.1.1.1
+#FallbackDNS=8.8.4.4 1.0.0.1
+#Domains=
+#DNSSEC=no
+#DNSOverTLS=no
+#MulticastDNS=no
+#LLMNR=no
+#Cache=no-negative
+#CacheFromLocalhost=no
+#DNSStubListener=yes
+#DNSStubListenerExtra=
+#ReadEtcHosts=yes
+#ResolveUnicastSingleLabel=no
+#StaleRetentionSec=0
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitScript started on 2026-11-15 14:24:59-03:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="164" LINES="15"]
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mresolvectl query github.com[27mresolvectl query github.com
+[?2004l[0;1;31mgithub.com: resolve call failed: No appropriate name servers or networks for name found[0m
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7mcat /etc/wsl.conf[27m
+[7mls -l /etc/resolv.conf[27m
+[7mcat /etc/resolv.conf[27m[A[A]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ cat /etc/wsl.conf
+ls -l /etc/resolv.conf
+cat /etc/resolv.conf
+[?2004l[boot]
+systemd=true
+
+[user]
+default=guitolin
+[network]
+generateResolvConf = false
+
+lrwxrwxrwx 1 root root 39 Nov 15 11:50 [0m[01;36m/etc/resolv.conf[0m -> ../run/systemd/resolve/stub-resolv.conf
+# This is /run/systemd/resolve/stub-resolv.conf managed by man:systemd-resolved(8).
+# Do not edit.
+#
+# This file might be symlinked as /etc/resolv.conf. If you're looking at
+# /etc/resolv.conf and seeing this text, you have followed the symlink.
+#
+# This is a dynamic resolv.conf file for connecting local clients to the
+# internal DNS stub resolver of systemd-resolved. This file lists all
+# configured search domains.
+#
+# Run "resolvectl status" to see details about the uplink DNS servers
+# currently in use.
+#
+# Third party programs should typically not access this file directly, but only
+# through the symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a
+# different way, replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 127.0.0.53
+options edns0 trust-ad
+search .
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ 
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ 
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7msudo nano /etc/wsl.conf[27msudo nano /etc/wsl.conf
+[?2004l[sudo] password for guitolin: 
+[?2004h[?1049h[22;0;0t[1;15r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[13;76H(B[0;7m[ Reading... ](B[m[13;75H(B[0;7m[ Read 8 lines ](B[m[H(B[0;7m  GNU nano 7.2                                                                /etc/wsl.conf                                                                         [1;163H(B[m[14d(B[0;7m^G(B[m Help[14;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[14;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[14;113H(B[0;7mM-A(B[m Set Mark    (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[15d(B[0;7m^X(B[m Exit[15;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[15;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[15;113H(B[0;7mM-6(B[m Copy[15;129H(B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[2d(B[0;1m[32m[boot][3d[39m(B[msystemd=true[5d(B[0;1m[32m[user][6d[39m(B[mdefault=guitolin[7d(B[0;1m[32m[network][8d[39m(B[mgenerateResolvConf = false[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25hg[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hR[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25hl[?25l[13d[K[?12l[?25h[8;15H[?25l[?12l[?25hC[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hf[?25l[?12l[?25h [?25l[?12l[?25h=[?25l[?12l[?25h [?25l[?12l

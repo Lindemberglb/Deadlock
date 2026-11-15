@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "banker.h"
 
 static int menor_ou_igual(const int *primeiro, const int *segundo){
@@ -22,6 +23,82 @@ static void escrever_vetor(const int *vetor){
         }
         fprintf(arquivo_resultado, "%d", vetor[j]);
     }
+}
+
+static int estado_seguro(void){
+    int *trabalho = criar_vetor(NUMBER_OF_RESOURCES);
+    int *terminou = criar_vetor(NUMBER_OF_CUSTOMERS);
+    int finalizados = 0;
+    int progresso;
+    int i, j;
+
+    for (j = 0; j < NUMBER_OF_RESOURCES; j++){
+        trabalho[j] = available[j];
+    }
+
+    do {
+        progresso = 0;
+
+        for (i = 0; i < NUMBER_OF_CUSTOMERS; i++){
+            if (!terminou[i] && menor_ou_igual(need[i], trabalho)){
+                for (j = 0; j < NUMBER_OF_RESOURCES; j++){
+                    trabalho[j] += allocation[i][j];
+                }
+                terminou[i] = 1;
+                finalizados++;
+                progresso = 1;
+            }
+        }
+    } while (progresso);
+
+    free(trabalho);
+    free(terminou);
+
+    return finalizados == NUMBER_OF_CUSTOMERS;
+}
+
+int request_resources(int customer_num, int request[]){
+    int j;
+
+    if (!menor_ou_igual(request, need[customer_num])){
+        fprintf(arquivo_resultado, "The customer %d request ", customer_num);
+        escrever_vetor(request);
+        fprintf(arquivo_resultado, " was denied because exceed its maximum allocation\n");
+        return -1;
+    }
+
+    if (!menor_ou_igual(request, available)){
+        fprintf(arquivo_resultado, "The resources ");
+        escrever_vetor(available);
+        fprintf(arquivo_resultado, " are not enough to customer %d request ", customer_num);
+        escrever_vetor(request);
+        fprintf(arquivo_resultado, " \n");
+        return -1;
+    }
+
+    for (j = 0; j < NUMBER_OF_RESOURCES; j++){
+        available[j] -= request[j];
+        allocation[customer_num][j] += request[j];
+        need[customer_num][j] -= request[j];
+    }
+
+    if (!estado_seguro()){
+        for (j = 0; j < NUMBER_OF_RESOURCES; j++){
+            available[j] += request[j];
+            allocation[customer_num][j] -= request[j];
+            need[customer_num][j] += request[j];
+        }
+
+        fprintf(arquivo_resultado, "The customer %d request ", customer_num);
+        escrever_vetor(request);
+        fprintf(arquivo_resultado, " was denied because result in an unsafe state\n");
+        return -1;
+    }
+
+    fprintf(arquivo_resultado, "Allocate to customer %d the resources ", customer_num);
+    escrever_vetor(request);
+    fprintf(arquivo_resultado, "\n");
+    return 0;
 }
 
 void imprimir_estado(void){
