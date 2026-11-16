@@ -1161,4 +1161,44 @@ search .
 [?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ 
 [?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7msudo nano /etc/wsl.conf[27msudo nano /etc/wsl.conf
 [?2004l[sudo] password for guitolin: 
-[?2004h[?1049h[22;0;0t[1;15r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[13;76H(B[0;7m[ Reading... ](B[m[13;75H(B[0;7m[ Read 8 lines ](B[m[H(B[0;7m  GNU nano 7.2                                                                /etc/wsl.conf                                                                         [1;163H(B[m[14d(B[0;7m^G(B[m Help[14;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[14;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[14;113H(B[0;7mM-A(B[m Set Mark    (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[15d(B[0;7m^X(B[m Exit[15;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[15;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[15;113H(B[0;7mM-6(B[m Copy[15;129H(B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[2d(B[0;1m[32m[boot][3d[39m(B[msystemd=true[5d(B[0;1m[32m[user][6d[39m(B[mdefault=guitolin[7d(B[0;1m[32m[network][8d[39m(B[mgenerateResolvConf = false[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25hg[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hR[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25hl[?25l[13d[K[?12l[?25h[8;15H[?25l[?12l[?25hC[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hf[?25l[?12l[?25h [?25l[?12l[?25h=[?25l[?12l[?25h [?25l[?12l
+[?2004h[?1049h[22;0;0t[1;15r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[13;76H(B[0;7m[ Reading... ](B[m[13;75H(B[0;7m[ Read 8 lines ](B[m[H(B[0;7m  GNU nano 7.2                                                                /etc/wsl.conf                                                                         [1;163H(B[m[14d(B[0;7m^G(B[m Help[14;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[14;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[14;113H(B[0;7mM-A(B[m Set Mark    (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[15d(B[0;7m^X(B[m Exit[15;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[15;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[15;113H(B[0;7mM-6(B[m Copy[15;129H(B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[2d(B[0;1m[32m[boot][3d[39m(B[msystemd=true[5d(B[0;1m[32m[user][6d[39m(B[mdefault=guitolin[7d(B[0;1m[32m[network][8d[39m(B[mgenerateResolvConf = false[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25hg[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hR[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25hl[?25l[13d[K[?12l[?25h[8;15H[?25l[?12l[?25hC[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hf[?25l[?12l[?25h [?25l[?12l[?25h=[?25l[?12l[?25h [?25l[?12lScript started on 2026-11-15 23:39:54-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="177" LINES="9"]
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c banker.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 10 5 7
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make
+[?2004lgcc -Wall -Wextra -std=c99 -o banker main.c entrada.c banker.c
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [7m./banker 10 5 7[27m./banker 10 5 7
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ cat result.txt
+[?2004lAllocate to customer 0 the resources 0 2 1
+Allocate to customer 2 the resources 3 0 2
+Allocate to customer 1 the resources 2 0 0
+Allocate to customer 4 the resources 0 0 2
+Release from customer 0 the resources 0 1 1
+Allocate to customer 3 the resources 2 1 1
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   2 1 1       |   0 1 1 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 3 3 2 
+The resources 3 3 2 are not enough to customer 4 request 4 0 0 
+Allocate to customer 1 the resources 1 0 2
+The customer 0 request 0 2 0 was denied because result in an unsafe state
+The customer 2 request 0 1 0 was denied because exceed its maximum allocation
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker[K[K[K[K[K[K[K/banker 10 5
+[?2004lErro: o número de argumentos é diferente da quantidade de recursos em customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 4 e 3
+[?2004lErro: os argumentos devem ser números inteiros não negativos
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 2 3 4 6[Kf
+[?2004lErro: os argumentos devem ser números inteiros não negativos
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 3 5 34 6566
+[?2004lErro: o número de argumentos é diferente da quantidade de recursos em customer.txt
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 3 434453 5
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ ./banker 3 [K4 5 5 
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
+[?2004lrm -f banker
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git add main.c
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git commit -m "[7mExecuta os comandos do commands.txt e gera o result.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CExecuta os comandos do commands.txt e gera o result.txt[1Pt[K[1Pt[K[1
