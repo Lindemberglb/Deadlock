@@ -37,6 +37,20 @@ static void liberar_memoria(void){
     free(comandos);
 }
 
+static void executar_comandos(void){
+    int i;
+
+    for (i = 0; i < quantidade_comandos; i++){
+        if (comandos[i].tipo == 'Q'){
+            request_resources(comandos[i].cliente, comandos[i].recursos);
+        } else if (comandos[i].tipo == 'L'){
+            release_resources(comandos[i].cliente, comandos[i].recursos);
+        } else{
+            imprimir_estado();
+        }
+    }
+}
+
 int main(int argc, char *argv[]){
     carregar_argumentos(argc, argv);
     carregar_clientes();
@@ -49,6 +63,8 @@ int main(int argc, char *argv[]){
         liberar_memoria();
         return 1;
     }
+
+    executar_comandos();
 
     fclose(arquivo_resultado);
     liberar_memoria();
