@@ -1201,4 +1201,40 @@ The customer 2 request 0 1 0 was denied because exceed its maximum allocation
 [?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ make clean
 [?2004lrm -f banker
 [?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git add main.c
-[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git commit -m "[7mExecuta os comandos do commands.txt e gera o result.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CExecuta os comandos do commands.txt e gera o result.txt[1Pt[K[1Pt[K[1
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git commit -m "[7mExecuta os comandos do commands.txt e gera o result.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CExecuta os comandos do commands.txt e gera o result.txt[1Pt[K[1Pt[K[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[K[1Pt[K[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[1Pt[K[1Pt[1Pt[1Pt[1Pt[1Pt[C[K[7mExecuta os comandos do commands.txt e gera o result.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CExecuta os comandos do commands.txt e gera o result.txt[C[1P[1P[1P[C[1P[1P[1P[1P[1@f[1@i[1@z[C[1@ [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1@q[1@u[1@e[C[1@ [1@g[1@e[1@r[1@a[1@m[C[1@ [1P[C[C[C[C[C[C[C[C[C[C[C[C[C^[K"
+[?2004l[main 2a407b2] fiz os comandos do commands.txt que geram o result.txt
+ 1 file changed, 16 insertions(+)
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git push
+[?2004lEnumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 478 bytes | 478.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/Lindemberglb/Deadlock.git
+   f522a50..2a407b2  main -> main
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git add evidn[Kencias.log
+[?2004l[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git commit -m "adicion[K[K[K[K[Kicionei o evidenia[K[Kcias.log atualizado
+[?2004l[?2004h> 
+[?2004l[?2004h> 
+[?2004l[?2004h> 
+[?2004l[?2004h> 
+[?2004l[?2004h> 
+[?2004l[?2004h> 
+[?2004l[?2004h> 
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git commit -m "adicin[Konei o evidencias.log atualizado"
+[?2004l[main f1c705a] adicionei o evidencias.log atualizado
+ 1 file changed, 41 insertions(+), 1 deletion(-)
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ git push
+[?2004lEnumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 924 bytes | 462.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/Lindemberglb/Deadlock.git
+   2a407b2..f1c705a  main -> main
+[?2004h]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinnote: ~/gllb[01;32mguitolin@guitolinnote[00m:[01;34m~/gllb[00m$ [K]0;guitolin@guitolinno
